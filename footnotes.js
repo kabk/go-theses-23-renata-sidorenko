@@ -41,7 +41,7 @@ function footnotePopup(showIndex, showCloseBtn) {
     window.addEventListener("scroll", handler("close"));
 
     if (showCloseBtn) {
-        popupCloseButton.addEventListener("click", handler("close"));
+        // popupCloseButton.addEventListener("click", handler("close"));
     }
 
     function handler(type, node) {
